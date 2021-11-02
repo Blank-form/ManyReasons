@@ -686,6 +686,9 @@ footer {
     .block_top {
         justify-content: space-around;
     }
+    .Create{
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 1899px) {
@@ -749,6 +752,9 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+    .Create{
+        padding-bottom: 10px;
+    }
     .cap {
         flex-wrap: wrap;
         padding-bottom: 0;
@@ -764,6 +770,7 @@ footer {
     }
     .wrapperIncrease {
         flex-wrap: wrap;
+        padding: 0;
     }
     .BlockInfo {
         text-align: center;
@@ -787,6 +794,9 @@ footer {
     }
     .table {
         padding-bottom: 60px;
+    }
+    .Group6_png{
+        background-position: center;
     }
 }
 
