@@ -845,7 +845,7 @@ footer {
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 400px)
+@media screen and (max-width: 402px)
 {
     .container_top {
         padding-top: 50px;
@@ -861,15 +861,22 @@ footer {
     }
     .Create{
         background-position-y: 250px;
+        height: auto;
+        padding-bottom: 400px;
     }
     .btn_Firstbckg {
-        margin-right: 0;
-        margin-bottom: 20px;
         background: #f2994a;
         color: white;
         width: 170px;
     }
     .people_margin{
         padding-top: 200px;
+    }
+    .btns{
+        width: 175px;
+        margin: 10px;
+    }
+    .distance{
+        height: 500px;
     }
 }
