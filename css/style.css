@@ -854,6 +854,9 @@ footer {
 }
 
 @media screen and (max-width: 540px) {
+    .search-txt{
+        width: 500px;
+    }
     .search-box{
         width: 100%;
     }
