@@ -32,7 +32,6 @@ header {
 .people_png {
     width: 637px;
     height: auto;
-    margin-left: 25px;
 }
 
 .cap {
@@ -329,10 +328,13 @@ h3 {
 }
 
 .Create {
-    width: 800px;
     height: 100px;
     margin: auto;
     padding-bottom: 400px;
+    z-index: -1;
+    background: url(../Photo/Frames.png) no-repeat center top / cover;
+    background-position-y: 1px;
+    width: 100%;
 }
 
 .Create .cap_block {
@@ -370,12 +372,12 @@ h3 {
 }
 
 .distance {
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 .BlockInfo {
     width: 520px;
-    height: 290px;
+    height: auto;
 }
 
 h2 {
@@ -654,6 +656,7 @@ ol li {
     letter-spacing: 0.2px;
     color: #8D8D8D;
 }
+
 .block_down span {
     font-family: Inter;
     font-style: normal;
@@ -665,7 +668,198 @@ ol li {
     padding: 0 35px;
 }
 
-footer{
+footer {
     background: url(../Photo/asdsd.png) no-repeat center / cover;
     background-position-y: 50px;
+}
+
+@media screen and (min-width: 1900px) {
+    .container {
+        max-width: 1500px;
+    }
+    .wrapper {
+        justify-content: space-between;
+    }
+    .people_margin {
+        margin-left: 400px;
+    }
+    .block_top {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 1899px) {
+    .container {
+        max-width: 1100px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .container {
+        max-width: 1400px;
+    }
+    .people_png {
+        width: 99%;
+    }
+    .table_three {
+        margin-right: 100px;
+    }
+    .table_two {
+        margin: 0 100px;
+    }
+    .block_table {
+        justify-content: center;
+        width: 100%;
+    }
+    .block_top {
+        justify-content: space-around;
+    }
+    .Feature_one {
+        width: 100%;
+    }
+    .Feature_two {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .containerBlock {
+        width: 100%;
+    }
+    .wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .getUp {
+        text-align: center;
+    }
+    .cap_block {
+        margin: auto;
+        justify-content: center;
+    }
+    .people_png {
+        width: 540px;
+    }
+    .Create {
+        background-size: 120%;
+    }
+    .block_top {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cap {
+        flex-wrap: wrap;
+        padding-bottom: 0;
+    }
+    .block_table {
+        justify-content: space-around;
+    }
+    .table_two {
+        margin: 0;
+    }
+    .table_three {
+        margin: 0;
+    }
+    .wrapperIncrease {
+        flex-wrap: wrap;
+    }
+    .BlockInfo {
+        text-align: center;
+    }
+    .Feature_one {
+        padding-top: 55px;
+        background-position: top;
+        padding-right: 0;
+    }
+    .Feature_two {
+        background-position-y: 10px;
+        background-position-x: center;
+        background-size: 30px;
+    }
+    .Increase {
+        text-align: center;
+        height: auto;
+    }
+    .cap_block {
+        margin-bottom: 50px;
+    }
+    .table {
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wrapperIncrease {
+        padding: 0;
+    }
+    .wrapperIncrease div img {
+        width: 100%;
+    }
+    .Create {
+        background-position-y: 160px;
+    }
+    .table {
+        flex-wrap: wrap;
+    }
+    .people_png {
+        width: 100%;
+    }
+    .getUp_videoP {
+        width: auto;
+    }
+    .people_margin {
+        padding-top: 100px;
+    }
+    .block_table {
+        flex-wrap: wrap;
+    }
+    .cap_block {
+        flex-wrap: wrap;
+    }
+    .p_center p {
+        width: auto;
+    }
+    .padding_p {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .search-box{
+        width: auto;
+    }
+    .containerBlock_text {
+        width: auto;
+    }
+    .block_image{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 400px)
+{
+    .container_top {
+        padding-top: 50px;
+    }
+    .containerBlock{
+        height: auto;
+    }    
+    .TwitterImg {
+        padding: 0;
+    }
+    .block_image {
+        flex-direction: column;
+    }
+    .Create{
+        background-position-y: 250px;
+    }
+    .btn_Firstbckg {
+        margin-right: 0;
+        margin-bottom: 20px;
+        background: #f2994a;
+        color: white;
+        width: 170px;
+    }
+    .people_margin{
+        padding-top: 200px;
+    }
 }
