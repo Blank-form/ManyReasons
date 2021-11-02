@@ -686,7 +686,7 @@ footer {
     .block_top {
         justify-content: space-around;
     }
-    .Create{
+    .Create {
         height: auto;
     }
 }
@@ -752,8 +752,10 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-    .Create{
-        padding-bottom: 10px;
+    .Create {
+        padding-bottom: 400px;
+        background-position-y: 150px;
+        height: 500px;
     }
     .cap {
         flex-wrap: wrap;
@@ -795,8 +797,12 @@ footer {
     .table {
         padding-bottom: 60px;
     }
-    .Group6_png{
+    .Group6_png {
         background-position: center;
+    }
+    .btns {
+        width: 175px;
+        margin: 10px;
     }
 }
 
@@ -835,31 +841,31 @@ footer {
         justify-content: center;
         flex-wrap: wrap;
     }
-    .search-box{
+    .search-box {
         width: auto;
     }
     .containerBlock_text {
         width: auto;
     }
-    .block_image{
+    .block_image {
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 402px)
-{
+
+@media screen and (max-width: 402px) {
     .container_top {
         padding-top: 50px;
     }
-    .containerBlock{
+    .containerBlock {
         height: auto;
-    }    
+    }
     .TwitterImg {
         padding: 0;
     }
     .block_image {
         flex-direction: column;
     }
-    .Create{
+    .Create {
         background-position-y: 250px;
         height: auto;
         padding-bottom: 400px;
@@ -869,14 +875,14 @@ footer {
         color: white;
         width: 170px;
     }
-    .people_margin{
+    .people_margin {
         padding-top: 200px;
     }
-    .btns{
+    .btns {
         width: 175px;
         margin: 10px;
     }
-    .distance{
+    .distance {
         height: 500px;
     }
 }
