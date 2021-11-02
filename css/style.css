@@ -697,7 +697,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1320px) {
     .container {
         max-width: 1400px;
     }
@@ -725,7 +725,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1140px) {
     .containerBlock {
         width: 100%;
     }
@@ -751,7 +751,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 960px) {
     .Create {
         padding-bottom: 400px;
         background-position-y: 150px;
@@ -804,9 +804,12 @@ footer {
         width: 175px;
         margin: 10px;
     }
+    .people_margin{
+        margin-top: 50px;
+    }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 720px) {
     .wrapperIncrease {
         padding: 0;
     }
@@ -826,7 +829,7 @@ footer {
         width: auto;
     }
     .people_margin {
-        padding-top: 100px;
+        margin-top: 100px;
     }
     .block_table {
         flex-wrap: wrap;
@@ -841,9 +844,7 @@ footer {
         justify-content: center;
         flex-wrap: wrap;
     }
-    .search-box {
-        width: auto;
-    }
+
     .containerBlock_text {
         width: auto;
     }
@@ -852,7 +853,10 @@ footer {
     }
 }
 
-@media screen and (max-width: 402px) {
+@media screen and (max-width: 540px) {
+    .search-txt{
+        width: 100%;
+    }
     .container_top {
         padding-top: 50px;
     }
@@ -875,14 +879,18 @@ footer {
         color: white;
         width: 170px;
     }
-    .people_margin {
-        padding-top: 200px;
-    }
+
     .btns {
         width: 175px;
         margin: 10px;
     }
     .distance {
         height: 500px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .people_margin {
+        padding-top: 200px;
     }
 }
