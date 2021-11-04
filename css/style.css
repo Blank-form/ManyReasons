@@ -698,6 +698,9 @@ footer {
 }
 
 @media screen and (max-width: 1320px) {
+    body{
+        padding: 10px;
+    }
     .container {
         max-width: 1400px;
     }
